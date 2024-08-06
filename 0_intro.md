@@ -8,7 +8,9 @@ This is a quick tutorial for FIRST LEGO League and World Robot Olympiad teams ta
 
 
 ## Team member perspective and quote
-Let's start with a brief summary from Zoli Nyitrai, our robot design and documentation lead, on his experience.
+Let's start with a brief summary from Zoli Nyitrai, our robot design and documentation lead in an FLL team [Tövis Robotics Club](https://toviscsapat.hu), on his experience.
+
+<img style="float: right;" src="img/pybricksz.png">
 
 > Our team participated in the FIRST LEGO League, a LEGO robot building and programming competition. Based on our results in the national finals, we earned the opportunity to participate in an international competition held in the USA. We wrote the program to control our robot in Pybricks. We were able to learn the basics with little help in a short time since this firmware was specifically developed for controlling LEGO hubs.
 > 
@@ -18,6 +20,8 @@ Let's start with a brief summary from Zoli Nyitrai, our robot design and documen
 > 
 > -- Zoli Nyitrai
 
+![image Poster](img/pybricksposter.jpg)
+
 ## Attila's hands-on tutorial
 
 Let's continue with our coach's perspective - a hands-on introduction by Attila.
@@ -26,7 +30,7 @@ Pybricks can be used on both EV3 and SPIKE/Robot Inventor hardware. On the SPIKE
 
 in the next sections you will get a hands-on-tutorial to help you get started with Pybricks that in my experience is the best and most effective way to program your LEGO hub.
 
-This tutorial is focusing on specific competiton aspects, while the authors of Pybricks are creating a tutorial on the site itself. I strongly recommend reading [that tutorial](https://pybricks.com/learn) as well.
+This tutorial is focusing on specific competiton aspects, while the authors of Pybricks are creating a tutorial on the site itself. I strongly recommend reading [the official tutorial](https://pybricks.com/learn) as well.
 
 
 ---

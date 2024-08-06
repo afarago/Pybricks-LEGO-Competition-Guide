@@ -71,11 +71,5 @@ robot.turn(90) # turn right 90 degrees
 robot.straight(100) # turn in a curve 60 degrees
 ```
 
-## Summary
-
-This environment simplifies programming by orders of magnitude compared to the traditional blocky-based system.
-Additionally the way Pybricks uses the DriveBase object makes your robot more reliable.
-
-
 ---
 [NEXT: Competition robot >>](3_competition.md)
