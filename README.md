@@ -15,4 +15,4 @@ You can check out my other hobby projects on my [personal page](https://attilafa
 Let us begin the learning and create a joyful experience with consistent robot runs where you can focus on strategy!
 
 ---
-[NEXT: Into >>](0_intro.md)
+[NEXT: Intro >>](0_intro.md)
