@@ -1,8 +1,12 @@
-# Summary and acknowledgement
+---
+title: Summary and acknowledgement
+nav_order: 
+---
 
 This environment simplifies programming by orders of magnitude compared to the traditional blocky-based system. Additionally the way Pybricks uses the DriveBase object makes your robot more reliable.
 
-We are grateful to the developers of PyBricks and recommend that you try it out next year.
+{: .highlight }
+We are grateful to the developers of PyBricks and recommend that you try this framework out in the next season.
 
 ![image starter program](img/pybricks1.png)
 

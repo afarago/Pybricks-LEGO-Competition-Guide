@@ -1,4 +1,7 @@
-# Hands-on tutorial
+---
+title: Hands-on tutorial
+nav_order: 1
+---
 
 Pybricks provides a programmable interface directly from a browser [code.pybricks.com](http://code.pybricks.com), which requires neither installation nor registration. The interface assists in creating a starter program, but we won't delve into that now.
 
@@ -11,8 +14,9 @@ This is an easy 2-3 minute process even at your first go, so there is nothing to
 Firmware is programming that's written to a hub hardware device's permanent memory. This memory is where the content is saved when the hub is turned off or the battery is removed or depleted. Pybricks serves as a firmware or even as an operating system much like Windows, Linux, MacOS on your laptop.
 You can find an awesome tutorials on firmware and operating system over the internet like [this](https://www.techtarget.com/whatis/definition/firmware) or [that](https://en.wikipedia.org/wiki/Firmware).
 
-
-For changing the firmware on you hub follow the [install-pybricks](https://pybricks.com/learn/getting-started/install-pybricks) tutorial (2-5 mins).
+{: .highlight }
+For changing the firmware on you hub follow the [install-pybricks](https://pybricks.com/learn/getting-started/install-pybricks) tutorial (2-3 mins).\
+Note: You can always get easily back to the official LEGO firmware.
 
 ## Creating your first program
 

@@ -1,24 +1,50 @@
-# Competition code
+---
+title: Competition code
+nav_order: 3
+---
 
 In my experience of 10 years coaching teams the recipe for robot performance success contains at least the following elements.
 
-* reliable navigation - acceleration, deceleration, gyro based drive correction
-* reliable motor control - acceleration, deceleration, stall detection and handling
-* modularized code - testing a certain part of the code is easy
-* easy prototyping - fast trial-and error cycles
-* ability to easily and reliably copy-paste parts of code, try different versions
-* reliably save and track dfferent versions
-* ability to work on multiple computers parallel
-* dedicated planning for strategy, grouping of missions based on distance, potentially shared or grouped attachment functions
-* ability to reevaluate mission strategy, mechanical attachment strategy and navigation strategy including code
-* separation of robot stages
-  * reliably leaving the base
-  * navigating near to the mission model
-  * navigating to the mission model
-  * solving the mission model - active or passive way
-  * navigating away from the mission model
-  * ... repeat with next model
-  * arriving back to the base, minimizing operator error on re-placement and attachment change
+## Keys to success 
+
+### 1. Reliable navigation
+Acceleration, deceleration, gyro based drive correction for the driving motors.
+
+### 2. Reliable motor control
+Acceleration, deceleration, stall detection and handling when using actuator motors for interacting with models.
+
+### 3. Modularized code
+You must be able to test a certain part of the code easily.
+
+### 4. Easy prototyping
+Fast trial-and error cycles.
+
+### 5. Ability to try different versions
+Easily and reliably copy-paste parts of code, try different versions.
+
+### 6. Versioning
+Reliably save and track dfferent versions.
+
+### 7. Multiple computers
+Ability to work on multiple computers parallel
+
+### 8. Dedicated planning for strategy
+Dedicated planning for strategy, grouping of missions based on distance, potentially shared or grouped attachment functions
+
+### 9. Reevaluate mission strategy
+Ability to reevaluate mission strategy, mechanical attachment strategy and navigation strategy including code.
+
+### 10. Separate robot stages
+
+You must be able to separately plan and program the following stages.
+
+1.  reliably leaving the base
+2.  navigating near to the mission model
+3.  navigating to the mission model
+4.  solving the mission model - active or passive way
+5.  navigating away from the mission model
+6.  ... repeat with next model
+7.  arriving back to the base, minimizing operator error on re-placement and attachment change
 
 ## Boilerplate code
 

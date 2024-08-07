@@ -1,4 +1,9 @@
-# Motors
+---
+title: Motors
+nav_order: 2
+---
+
+On this section we will learn how to deal with motors.
 
 ## Controlling a motor
 
@@ -16,10 +21,10 @@ In the second line we simply define the motor instance variable by calling a fun
 From this point we can simply drive the motor by time, target angle, relative angle.
 
 ```python
-# run the motor with a low speed for 1 second
+## run the motor with a low speed for 1 second
 motor1.run_time(100, 1000)
 
-# run the motor with a low speed for a clockwise 180 degree turn
+## run the motor with a low speed for a clockwise 180 degree turn
 motor1.run_angle(100, 180)
 ```
 
@@ -44,8 +49,8 @@ motor_right.run_angle(100, 90)
 Two motors themselves are still "dumb" capable only of rotating for a certain time, angle, or to a target value. To make our robot more efficient, PyBricks helps us by creating a theoretical "robot" — in this case, one with two wheels, where we only need to specify their size and distance apart.
 
 ```python
-# left and right motors
-# using small blue diameter 5.6 cm wheels and 11.4 cm axle track
+## left and right motors
+## using small blue diameter 5.6 cm wheels and 11.4 cm axle track
 robot = DriveBase(motor_left, motor_right, 56, 114)
 ```
 

@@ -1,4 +1,7 @@
-# Modularization revisited
+---
+title: Modularization revisited
+nav_order: 4
+---
 
 Modularization is an advanced topic, that is not needed for starting your robot on a competition, yet after your initial success I strongly recommend to read, learn and use.
 
@@ -24,9 +27,9 @@ It is important to note that defining the function does not run it. To actually 
 
 ```python
 my_code()
-# will print 
-# > apple
-# > peach
+## will print 
+## > apple
+## > peach
 ```
 
 This is a useful technique to group missions or parts of missions together and test them separately as long as they work reliably.
@@ -42,10 +45,10 @@ Since Pybricks v3.2, 2022 we have support for multi-file projects, where all the
 
 Based on this logic you can group competition mission codes separately to files while keeping init and utilities together.
 
-An sample file setup could be:
-```python
+An sample file setup could be as follows.
 
 ### FILE: base.py
+```python
 import ...
 
 hub = PrimeHub()
@@ -55,8 +58,10 @@ robot = DriveBase(motor_left, motor_right, 56, 114)
 robot.use_gyro(True)
 motor_attachment_left = Motor(Port.C)
 motor_attachment_right = Motor(Port.D)
+```
 
 ### FILE: main.py
+```python
 import base
 
 def menu():
@@ -70,8 +75,10 @@ def menu():
             import mission2
         elif selected == "3":
             import mission3
+```
 
 ### FILE: mission1.py
+```python
 import base
 ################################################
 ### MISSION 1
@@ -82,7 +89,10 @@ robot.straight(320)
 motor_attachment_left.run_angle(130, 60)
 ...
 
+```
+
 ### FILE: mission2.py
+```python
 import base
 ################################################
 ### MISSION 2

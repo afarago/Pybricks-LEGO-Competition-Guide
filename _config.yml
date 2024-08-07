@@ -1,0 +1,41 @@
+title: Pybricks Competition Tutorial
+description: >-
+  Pybricks Competition Tutorial - using Pybricks framework in FIRST LEGO League and World Robot Olympiad competitions.
+keywords: FLL, WRO, Pybricks, LEGO
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  afarago
+# https://just-the-docs.com/docs/configuration/#footer-content
+
+# Build settings
+markdown: kramdown
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+favicon_ico: "/assets/favicon.ico"
+# logo: "/assets/icon_320x320.png"
+
+search_enabled: true
+nav_enabled: true
+heading_anchors: true
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: false # show or hide edit this page link
+
+# aux_links:
+#   "Just the Docs on GitHub":
+#     - "//github.com/just-the-docs/just-the-docs"
+
+# Footer content
+# appears at the bottom of every page's main content
+# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
+footer_content: "Copyright &copy; 2024 Attila Farago."
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  highlight:
+    color: yellow
