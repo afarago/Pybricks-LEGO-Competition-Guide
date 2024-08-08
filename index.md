@@ -7,16 +7,14 @@ This is a quick tutorial for using [Pybricks](https://pybricks.com){:target="_bl
 
 ## About the author
 
-My name is Attila Farago, working in the software development industry for 20+ years and engaged with LEGO robotics for the past 10 years both on the coach and the judge roles in FIRST LEGO League and World Robot Olympiad as well.
+My name is Attila Farago, I have been working in the software development industry for 20+ years and have engaged with LEGO robotics for the past 10 years both in the coach and the judge roles in FIRST LEGO League and World Robot Olympiad as well.
 
-I am enthusiastic about helping individuals and teams to grow to their best and also learn from many experts all over the world. For me learning, networking and helping grow others worth much more than winning.
+I am enthusiastic about helping individuals and teams to grow to their best and also learn from many experts all over the world. For me, learning, networking, and helping develop others are worth much more than winning.
 
 You can check out my other hobby projects on my [personal page](https://attilafarago.hu){:target="_blank"} and my [professional background](https://www.linkedin.com/in/afarago){:target="_blank"}.
 
 ## Let's start
 Let us begin the learning and create a joyful experience with consistent robot runs where you can focus on strategy!
-
-
 
 ---
 [Tutorial >>](tutorial/0_intro.md)

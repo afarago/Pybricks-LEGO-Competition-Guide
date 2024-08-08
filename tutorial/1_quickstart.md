@@ -7,15 +7,15 @@ Pybricks provides a programmable interface directly from a browser [code.pybrick
 
 ## Changing the core
 
-In order to use Pybricks you need to change the core hub program, called as firmware that sits between and connects the hardware pieces to your user program.
+To use Pybricks you need to change the core hub program, called firmware that sits between and connects the hardware pieces to your user program.
 
 This is an easy 2-3 minute process even at your first go, so there is nothing to worry about, just make sure you pay attention to the instructions.
 
-Firmware is programming that's written to a hub hardware device's permanent memory. This memory is where the content is saved when the hub is turned off or the battery is removed or depleted. Pybricks serves as a firmware or even as an operating system much like Windows, Linux, MacOS on your laptop.
-You can find an awesome tutorials on firmware and operating system over the internet like [this](https://www.techtarget.com/whatis/definition/firmware) or [that](https://en.wikipedia.org/wiki/Firmware).
+Firmware is programming that's written to a hub hardware device's permanent memory. This memory is where the content is saved when the hub is turned off or the battery is removed or depleted. Pybricks serves as firmware or even as an operating system much like Windows, Linux, or MacOS on your laptop.
+You can find awesome tutorials on firmware and operating systems over the internet like [this](https://www.techtarget.com/whatis/definition/firmware) or [that](https://en.wikipedia.org/wiki/Firmware).
 
 {: .highlight }
-For changing the firmware on you hub follow the [install-pybricks](https://pybricks.com/learn/getting-started/install-pybricks) tutorial (2-3 mins).\
+For changing the firmware on your hub follow the [install-pybricks](https://pybricks.com/learn/getting-started/install-pybricks) tutorial (2-3 mins).\
 Note: You can always get easily back to the official LEGO firmware.
 
 ## Creating your first program
@@ -24,7 +24,7 @@ Step-by-step:
 1. Navigate to the [code.pybricks.com](http://code.pybricks.com) site
 2. Create a new file using the plus sign
 3. Select "python" as program type
-4. Keep "use template" switch on
+4. Keep the "use template" switch on
 5. Select your hub - SPIKE and Mindstorms Robot Inventor hubs are practically the same
 
 ```python
@@ -41,7 +41,7 @@ hub = InventorHub()
 
 Python is suitable for writing quite complex programs, but our focus has been on the simplest usage. In the Pybricks environment, we program in Python, and the microcontroller at the heart of the hub communicates with us primarily in Python (MicroPython).
 
-To make the hub understand our intentions the creators of Pybricks (Laurens Valk and David Lechner) categorized the available features into groups, much like organizing our drawings by theme into boxes. These groups are structured around physically tangible devices: hub, motor, color sensor, etc. Within each group, there are further subdivisions for easier management, separated by a dot (e.g., hub.display). Finally, we typically invoke a specific function, also separated by a dot and always ending with parentheses.
+To make the hub understand our intentions the creators of Pybricks (Laurens Valk and David Lechner) categorized the available features into groups, much like organizing our drawings by theme into boxes. These groups are structured around physically tangible devices: hub, motor, color sensor, etc. Within each group, there are further subdivisions for easier management, separated by a dot (e.g., `hub.display`). Finally, we typically invoke a specific function, also separated by a dot and always ending with parentheses.
 
 ## Playing with the hub
 

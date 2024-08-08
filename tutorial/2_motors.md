@@ -3,28 +3,28 @@ title: Motors
 nav_order: 2
 ---
 
-On this section we will learn how to deal with motors.
+In this section, we will learn how to deal with motors.
 
 ## Controlling a motor
 
 To control a motor we need to tell the system about the fact that we do have a motor connected to the hub.
 
-In the template we have already imported all that is needed to connect our motor. For completeness let's include the import statement, yet it is not really needed to duplicate this line in your complete code.
+In the template, we have already imported all that is needed to connect our motor. For completeness let's include the import statement, yet it is not needed to duplicate this line in your complete code.
 
 ```python
 from pybricks.pupdevices import Motor
 motor1 = Motor(Port.A)
 ```
 
-In the second line we simply define the motor instance variable by calling a function like structure we imported. Obviously we need to state at least to which port this motor is connnected to.
+In the second line we simply define the motor instance variable by calling a function like the structure we imported. Obviously, we need to state at least to which port this motor is connected to.
 
-From this point we can simply drive the motor by time, target angle, relative angle.
+From this point, we can simply drive the motor by time, target angle, and relative angle.
 
 ```python
 ## run the motor with a low speed for 1 second
 motor1.run_time(100, 1000)
 
-## run the motor with a low speed for a clockwise 180 degree turn
+## run the motor with a low speed for a clockwise 180-degree turn
 motor1.run_angle(100, 180)
 ```
 
@@ -56,7 +56,7 @@ robot = DriveBase(motor_left, motor_right, 56, 114)
 
 After this, navigating on the field becomes quite easy as the system calculates how much the motors need to rotate for the operations below.
 
-Normally you would need to use math, and trigonometry  to calculate the degree of wheel rotation for 10cm drive or using the wheel size and axle track the rotation to pivot turn 90 degrees.
+Normally you would need to use math, and trigonometry to calculate the degree of wheel rotation for 10cm drive or using the wheel size and axle track the rotation to pivot turn 90 degrees.
 
 ```python
 robot.turn(90) # turn right 90 degrees

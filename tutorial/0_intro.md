@@ -2,21 +2,21 @@
 title: Short review and introduction
 nav_order: 0
 ---
- 
-This year of 2023-2024 our FIRST LEGO League team, Töviscsapat-X had demonstrated a very steep learning curve on achieving reasonable and reliable robot runs taking the team from regional to national final and finally to the WPI Open invitational competition. Here the team could come to a 48th/49th place with 405 points.
+ 
+This year 2023-2024 our FIRST LEGO League team, Töviscsapat-X demonstrated a very steep learning curve on achieving reasonable and reliable robot runs taking the team from regional to national final and finally to the WPI Open invitational competition. Here the team could come to a 48th/49th place with 405 points.
 
-The team has started programming the robot in SPIKE/Mindstorms blocky environment, yet decided to switch over to [Pybricks](https://pybricks.com) firmware even though the text based nature of the environment gave some extra challenge.
+The team has started programming the robot in SPIKE/Mindstorms blocky environment, yet decided to switch over to [Pybricks](https://pybricks.com) firmware even though the text-based nature of the environment gave some extra challenge.
 
 {: .highlight }
-You might feel frightened to move from block based to text based programming. My experience is that even 8-10 year old kids will be able to learn and use simple text-based Python in under 20 minutes.
+You might feel frightened to move from block-based to text-based programming. My experience is that even 8-10-year-old kids will be able to learn and use simple text-based Python in under 20 minutes.
 
-Note: For smaller kids and novice teams Pybricks offers an icon block based environment as well, that is also very cool. 
+Note: For smaller kids and novice teams Pybricks offers an icon block-based environment as well, which is also very cool. 
 
 This is a quick tutorial for FIRST LEGO League and World Robot Olympiad teams taking the next step for a reliable robot run based on 10 years of competition and judging experience.
 
 
 ## Team member perspective and quote
-Let's start with a brief summary from Zoli Nyitrai, our robot design and documentation lead in an FLL team [Tövis Robotics Club](https://toviscsapat.hu), on his experience.
+Let's start with a summary from Zoli Nyitrai, our robot design, and documentation lead in an FLL team [Tövis Robotics Club](https://toviscsapat.hu), on his experience.
 
 {: .float-right .my-0 .ml-2 }
 ![image Zoli](img/pybricksz.png)
@@ -38,9 +38,9 @@ Let's continue with our coach's perspective - a hands-on introduction by Attila.
 
 Pybricks can be used on both EV3 and SPIKE/Robot Inventor hardware. On the SPIKE hub, which we use and prefer, the process begins with replacing the firmware. It's not difficult, and understanding it in depth isn't necessary; all team members have learned how to use it.
 
-in the next sections you will get a hands-on-tutorial to help you get started with Pybricks that in my experience is the best and most effective way to program your LEGO hub.
+In the next sections, you will get a hands-on tutorial to help you get started with Pybricks which in my experience is the best and most effective way to program your LEGO hub.
 
-This tutorial is focusing on specific competiton aspects, while the authors of Pybricks are creating a tutorial on the site itself. I strongly recommend reading [the official tutorial](https://pybricks.com/learn) as well.
+This tutorial focuses on specific competition aspects, while the authors of Pybricks are creating a tutorial on the site itself. I strongly recommend reading [the official tutorial](https://pybricks.com/learn) as well.
 
 ---
 [NEXT: Quickstart >>](1_quickstart.md)

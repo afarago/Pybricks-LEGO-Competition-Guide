@@ -3,27 +3,27 @@ title: Modularization revisited
 nav_order: 4
 ---
 
-Modularization is an advanced topic, that is not needed for starting your robot on a competition, yet after your initial success I strongly recommend to read, learn and use.
+Modularization is an advanced topic, that is not needed for starting your robot in a competition, yet after your initial success, I strongly recommend reading, learning, and using this.
 
 ## Grouping code in Python - functions
 
-In Python you can simply add the statements line-by-line and gradually grow the code.
+In Python, you can simply add the statements line-by-line and gradually grow the code.
 
 This is quite straightforward and is a good start to explore. The downside is that you will find it very hard to fine-tune small portions of your code e.g. navigating from one mission to the next.
 
-As in school you have lessons one-after-the-other and you do not mix your maths and literature notebooks, but rather group things to different books, and even lessons within.
+As in school you have lessons one after the other and you do not mix your maths and literature notebooks, but rather group things to different books, and even lessons within.
 
-In Python you can do the same with functions.
+In Python, you can do the same with functions.
 
-A function is a grouped line of code that we once define and can call at a later time. The definition groups the useful lines of codes by indenting them. If you select a few lines of code and press the Tab key the editor will do the trick for you.
+A function is a grouped line of code that once defined, we can call at a later time. The definition groups the useful lines of codes by indenting them. If you select a few lines of code and press the Tab key the editor will do the trick for you.
 
 ```python
 def my_code():
-    print("apple")
-    print("peach")
+    print("apple")
+    print("peach")
 ```
 
-It is important to note that defining the function does not run it. To actually see your robot execute it you need to call the defined function at any point after the definition.
+It is important to note that defining the function does not run it. To see your robot execute it you need to call the defined function at any point after the definition.
 
 ```python
 my_code()
@@ -32,20 +32,20 @@ my_code()
 ## > peach
 ```
 
-This is a useful technique to group missions or parts of missions together and test them separately as long as they work reliably.
+This is a useful technique to group missions or parts of missions and test them separately as long as they work reliably.
 
 ## Grouping code in Python - modules
 
 While working on bigger projects you might want to group and even test your code even more separately.
 
-Python lets you move certain pieces of code to a separate file - called module. Consider this module the same as a library of code.
+Python lets you move certain pieces of code to a separate file - called a module. Consider this module the same as a library of code.
 This file module contains a set of functions you can include in your main application.
 
 Since Pybricks v3.2, 2022 we have support for multi-file projects, where all the necessary files are imported and magically downloaded to the brick during the compile and download process.
 
 Based on this logic you can group competition mission codes separately to files while keeping init and utilities together.
 
-An sample file setup could be as follows.
+A sample file setup could be as follows.
 
 ### FILE: base.py
 ```python
@@ -65,16 +65,16 @@ motor_attachment_right = Motor(Port.D)
 import base
 
 def menu():
-    white True:
-        selected = hub_menu("1", "2", "3")
+ white True:
+ selected = hub_menu("1", "2", "3")
 
-        # Based on the selection, run a program.
-        if selected == "1":
-            import mission1
-        elif selected == "2":
-            import mission2
-        elif selected == "3":
-            import mission3
+        # Based on the selection, run a program.
+        if selected == "1":
+            import mission1
+        elif selected == "2":
+            import mission2
+        elif selected == "3":
+            import mission3
 ```
 
 ### FILE: mission1.py
