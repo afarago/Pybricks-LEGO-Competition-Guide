@@ -2,7 +2,7 @@
 title: Short review and introduction
 nav_order: 0
 ---
- 
+
 This year 2023-2024 our FIRST LEGO League team, Töviscsapat-X demonstrated a very steep learning curve on achieving reasonable and reliable robot runs taking the team from regional to national final and finally to the WPI Open invitational competition. Here the team could come to a 48th/49th place with 405 points.
 
 The team has started programming the robot in SPIKE/Mindstorms blocky environment, yet decided to switch over to [Pybricks](https://pybricks.com) firmware even though the text-based nature of the environment gave some extra challenge.
