@@ -49,8 +49,8 @@ motor_right.run_angle(100, 90)
 Two motors themselves are still "dumb" capable only of rotating for a certain time, angle, or to a target value. To make our robot more efficient, PyBricks helps us by creating a theoretical "robot" — in this case, one with two wheels, where we only need to specify their size and distance apart.
 
 ```python
-## left and right motors
-## using small blue diameter 5.6 cm wheels and 11.4 cm axle track
+# left and right motors
+# using small blue diameter 5.6 cm wheels and 11.4 cm axle track
 robot = DriveBase(motor_left, motor_right, 56, 114)
 ```
 

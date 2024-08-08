@@ -19,17 +19,18 @@ A function is a grouped line of code that once defined, we can call at a later t
 
 ```python
 def my_code():
-    print("apple")
-    print("peach")
+  print("apple")
+  print("peach")
 ```
 
 It is important to note that defining the function does not run it. To see your robot execute it you need to call the defined function at any point after the definition.
 
 ```python
 my_code()
-## will print 
-## > apple
-## > peach
+
+# will print 
+# > apple
+# > peach
 ```
 
 This is a useful technique to group missions or parts of missions and test them separately as long as they work reliably.
@@ -65,16 +66,16 @@ motor_attachment_right = Motor(Port.D)
 import base
 
 def menu():
- white True:
- selected = hub_menu("1", "2", "3")
+  white True:
+    selected = hub_menu("1", "2", "3")
 
-        # Based on the selection, run a program.
-        if selected == "1":
-            import mission1
-        elif selected == "2":
-            import mission2
-        elif selected == "3":
-            import mission3
+    # Based on the selection, run a program.
+    if selected == "1":
+      import mission1
+    elif selected == "2":
+      import mission2
+    elif selected == "3":
+      import mission3
 ```
 
 ### FILE: mission1.py

@@ -76,16 +76,16 @@ time = StopWatch()
 ### chooses the round
 ################################################
 def menu():
- white True:
- selected = hub_menu("1", "2", "3")
+  white True:
+    selected = hub_menu("1", "2", "3")
 
-        # Based on the selection, run a program.
-        if selected == "1":
- mission_1()
-        elif selected == "2":
- mission_2()
-        elif selected == "3":
- mission_3()
+    # Based on the selection, run a program.
+    if selected == "1":
+      mission_1()
+    elif selected == "2":
+      mission_2()
+    elif selected == "3":
+      mission_3()
 
 ################################################
 ### MISSION 1
@@ -93,14 +93,13 @@ def menu():
 ### author: Jane
 ################################################
 def mission_1():
- robot.straight(320)
- motor_attachment_left.run_angle(130, 60)
+  robot.straight(320)
+  motor_attachment_left.run_angle(130, 60)
 
- robot.straight(100, Stop.COAST)
- robot.drive(100, 10)
- wait(500)
- robot.drive(50, 10)
-
+  robot.straight(100, Stop.COAST)
+  robot.drive(100, 10)
+  wait(500)
+  robot.drive(50, 10)
 ...
 
 ################################################
