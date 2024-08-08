@@ -19,7 +19,7 @@ This is a quick tutorial for FIRST LEGO League and World Robot Olympiad teams ta
 Let's start with a summary from Zoli Nyitrai, our robot design, and documentation lead in an FLL team [Tövis Robotics Club](https://toviscsapat.hu), on his experience.
 
 {: .float-right .my-0 .ml-2 }
-![image Zoli](img/pybricksz.png)
+![image Zoli](img/pybricksz.jpg){: .img-rounded }
 
 > Our team participated in the FIRST LEGO League, a LEGO robot building and programming competition. Based on our results in the national finals, we earned the opportunity to participate in an international competition held in the USA. We wrote the program to control our robot in Pybricks. We were able to learn the basics with little help in a short time since this firmware was specifically developed for controlling LEGO hubs.
 > 
