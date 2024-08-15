@@ -5,36 +5,36 @@ nav_order: 3
 
 In my experience of 10 years coaching teams, the recipe for robot performance success contains at least the following elements.
 
-## Keys to success 
+# Keys to success 
 
-### 1. Reliable navigation
+## 1. Reliable navigation
 Acceleration, deceleration, gyro-based drive correction for the driving motors.
 
-### 2. Reliable motor control
+## 2. Reliable motor control
 Acceleration, deceleration, stall detection, and handling when using actuator motors for interacting with models.
 
-### 3. Modularized code
+## 3. Modularized code
 You must be able to test a certain part of the code easily.
 
-### 4. Easy prototyping
+## 4. Easy prototyping
 Fast trial-and-error cycles.
 
-### 5. Ability to try different versions
+## 5. Ability to try different versions
 Easily and reliably copy-paste parts of code, and try different versions.
 
-### 6. Versioning
+## 6. Versioning
 Reliably save and track different versions.
 
-### 7. Multiple computers
+## 7. Multiple computers
 Ability to work on multiple computers in parallel
 
-### 8. Dedicated planning for strategy
+## 8. Dedicated planning for strategy
 Dedicated planning for strategy, grouping of missions based on distance, potentially shared or grouped attachment functions
 
-### 9. Reevaluate mission strategy
+## 9. Reevaluate mission strategy
 Ability to reevaluate mission strategy, mechanical attachment strategy, and navigation strategy including code.
 
-### 10. Separate robot stages
+## 10. Separate robot stages
 
 You must be able to separately plan and program the following stages.
 
@@ -46,7 +46,7 @@ You must be able to separately plan and program the following stages.
 6. ... repeat with the next model
 7. arriving back to the base, minimizing operator error on re-placement and attachment change
 
-## Boilerplate code
+# Boilerplate code
 
 Here you find a a simple boilerplate code solving a multi-mission robot competition such as FIRST LEGO League Challenge.
 

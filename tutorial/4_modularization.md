@@ -5,7 +5,7 @@ nav_order: 4
 
 Modularization is an advanced topic, that is not needed for starting your robot in a competition, yet after your initial success, I strongly recommend reading, learning, and using this.
 
-## Grouping code in Python - functions
+# Grouping code in Python - functions
 
 In Python, you can simply add the statements line-by-line and gradually grow the code.
 
@@ -35,7 +35,7 @@ my_code()
 
 This is a useful technique to group missions or parts of missions and test them separately as long as they work reliably.
 
-## Grouping code in Python - modules
+# Grouping code in Python - modules
 
 While working on bigger projects you might want to group and even test your code even more separately.
 
@@ -61,7 +61,7 @@ motor_attachment_left = Motor(Port.C)
 motor_attachment_right = Motor(Port.D)
 ```
 
-### FILE: main.py
+## FILE: main.py
 ```python
 import base
 
@@ -78,7 +78,7 @@ def menu():
       import mission3
 ```
 
-### FILE: mission1.py
+## FILE: mission1.py
 ```python
 import base
 ################################################
@@ -92,7 +92,7 @@ motor_attachment_left.run_angle(130, 60)
 
 ```
 
-### FILE: mission2.py
+## FILE: mission2.py
 ```python
 import base
 ################################################

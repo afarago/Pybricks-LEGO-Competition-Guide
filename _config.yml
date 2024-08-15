@@ -32,10 +32,16 @@ footer_content: "Copyright &copy; 2024 Attila Farago."
 
 callouts:
   warning:
-    title: Warning
+    title: WARNING
     color: red
   highlight:
     color: yellow
+  task:
+    title: EXERCISE
+    color: yellow
+  task_solution:
+    title: MY SOLUTION
+    color: greenyellow
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
