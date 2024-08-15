@@ -46,10 +46,12 @@ callouts:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 aux_links:
-  "<i alt='homepage'  class='fa-xl fa-solid fa-user'></i>":
+  "<i alt='homepage'  class='fa-xl fa-solid fa-user-astronaut'></i>":
     - "https://attilafarago.hu"
   "<i alt='pybricks'  class='fa-xl fa-solid fa-robot'></i>":
     - "https://pybricks.com"
+  "<i alt='pybricks'  class='fa-xl fa-solid fa-code'></i>":
+    - "https://code.pybricks.com"
 
 exclude:
   - Gemfile

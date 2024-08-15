@@ -15,8 +15,9 @@ Firmware is programming that's written to a hub hardware device's permanent memo
 You can find awesome tutorials on firmware and operating systems over the internet like [this](https://www.techtarget.com/whatis/definition/firmware) or [that](https://en.wikipedia.org/wiki/Firmware).
 
 {: .highlight }
-For changing the firmware on your hub follow the [install-pybricks](https://pybricks.com/learn/getting-started/install-pybricks) tutorial (2-3 mins).\
-Note: You can always get easily back to the official LEGO firmware.
+For changing the firmware on your hub follow the [install-pybricks](https://pybricks.com/learn/getting-started/install-pybricks) tutorial (2-3 mins).  
+Note: You will need to use the Device Manager on Windows.  
+Note: You can easily get back to the official LEGO firmware later on.
 
 # Creating your first program
 
