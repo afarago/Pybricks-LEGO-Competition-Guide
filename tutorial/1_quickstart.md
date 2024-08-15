@@ -81,7 +81,29 @@ hub.display.text("Hello FLL, Hello WRO")    # hub displays this text
 hub.display.icon(Icon.HAPPY)                # display a happy icon
 ```
 
+# Debugging
 
+Sometimes you want to know what your program is doing, where its internal status is. At the moment you cannot stop the program and do a step-by-step execution that we would call debugging, yet you can print information as your code runs.
+
+You can either write a character or a text to the pixel display.
+
+```python
+hub.display.char("A")                       # single character
+hub.display.text("Hello world")             # NOTE: this will take some time
+hub.display.number(42)                      # numbers from -99 to +99
+```
+
+You can also print any information to the lower terminal area in your Pybricks IDE.
+Using `print` helps to track your current values and execution details.
+
+```python
+print("A")                                  # prints a single character in a line
+print("Hello world")                        # this will print instantaneously
+print(42)                                   # you can print numbers as well
+print("A", "Hello world", 42)               # combine multiple items to print
+print(str(42)+"Hello")                      # combine strings
+print(chr(42), "Hello star", ord("*"))      # ASCII code of a number
+```
 
 ---
 [NEXT: Simple motors >>](2_motors.md)

@@ -77,7 +77,7 @@ After this, navigating on the field becomes quite easy as the system calculates 
 {: .task }
 > 1. Find the DriveBase `turn()` and `straight()` in the [documentation](https://docs.pybricks.com/en/latest/robotics.html){:target="_blank"}
 > 2. Connect the two motors to E and F ports
-> 3. Make the robot turn 90 degrees to the legt and to the right
+> 3. Make the robot turn 90 degrees to the left and to the right
 > 4. Make the robot move straight 10 centimeters / 100 millimeters
 > 5. Combine the above to draw a rectangle
 
@@ -121,11 +121,29 @@ Of course, wheel slippage can affect accuracy. One very good and recommended opt
 
 This firmware also supports using the gyro. From here, the same instructions can be used with more precision, with corrections based on the built-in gyro sensor.
 
-```python
-robot.use_gyro(True)
-robot.turn(90) # turn right 90 degrees
-robot.straight(100) # turn in a curve 60 degrees
-```
+{: .task }
+> 1. Set the use the gyro sensor
+> 2. Make the robot turn 90 degrees to the right
+> 3. Print out actual heading of the robot to the original starting position
+> 4. Make the robot move straight 10 centimeters
+> 5. Print out actual distance of the robot to the original starting position
+
+{: .task_solution }
+> ```python
+> motor_left = Motor(Port.E, Direction.COUNTERCLOCKWISE)
+> motor_right = Motor(Port.F, Direction.CLOCKWISE)
+> robot = DriveBase(motor_left, motor_right, 56, 114)
+> robot.use_gyro(True)
+> robot.turn(90)                            # turn right 90 degrees
+> print(robot.angle())                      # print the heading
+> hub.display.text(str(robot.angle()))      # print to the pixel display
+> robot.straight(100)                       # move 10 centimeters
+> print(robot.distance())                   # print the distance travelled
+> hub.display.text(str(robot.distance()))   # print to the pixel display
+> ```
+
+![tutorial_gyroturn](assets/tutorial_gyroturn.svg){:width="100%" .program_code}
+
 
 ---
 [NEXT: Competition robot >>](3_competition.md)
