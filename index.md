@@ -20,8 +20,6 @@ In the next sections, you will get a hands-on tutorial to help you get started w
 
 This tutorial focuses on specific competition aspects, while the authors of Pybricks are creating a tutorial on the site itself. I strongly recommend reading [the official tutorial](https://pybricks.com/learn) as well.
 
-Acknowledgement: Some of the tutorial tasks were inspired by the Python tutorial of Pal Bodnar, programming teacher and robotics enthusiast.
-
 # Let's start
 
 Let us begin the learning and create a joyful experience with consistent robot runs where you can focus on strategy!

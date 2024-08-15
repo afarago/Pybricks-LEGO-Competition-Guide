@@ -109,4 +109,4 @@ robot.turn(30)
 
 
 ---
-[NEXT: Summary >>](9_summary.md)
+[NEXT: Using color sensor >>](5_color_sensors.md)
