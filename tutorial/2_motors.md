@@ -99,7 +99,7 @@ After this, navigating on the field becomes quite easy as the system calculates 
 ![tutorial_drivebase](assets/tutorial_drivebase.svg){:width="75%" .program_code}
 
 
-Normally you would need to use math, and trigonometry to calculate the degree of wheel rotation for 10cm drive or using the wheel size and axle track the rotation to pivot turn 90 degrees.
+Normally you would need to use math, and trigonometry to calculate the degree of wheel rotation for 10cm drive or using the wheel size and axle track the rotation to spin turn 90 degrees.
 
 Explore the functions in detail, also checking out the `curve()`, `drive()`, `stop()` functions and also printing the current values with the `distance()`, `angle()` functions.
 
