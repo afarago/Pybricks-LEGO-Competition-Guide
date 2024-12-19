@@ -1,6 +1,6 @@
 ---
 title: Summary and acknowledgment
-nav_order: 
+nav_order:
 ---
 
 This environment simplifies programming by orders of magnitude compared to the traditional blocky-based system. Additionally, the way Pybricks uses the DriveBase object makes your robot more reliable.
@@ -30,4 +30,5 @@ Pál Bodnár
 Check out his tutorials on [his youtube channel](https://www.youtube.com/@palbognar4507).
 
 ---
+
 END OF THIS TUTORIAL.
